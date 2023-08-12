@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    width: 100%;
+    height: 75px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #020000;
+}
+
+.footer-text{
+    margin-left: 25px;
+    color: white;
+}
+
+.footer-media-list{
+    margin-right: 25px;
+    display: flex;
+}
+
+.footer-media-list > li{
+    margin-right: 15px;
+}
+
+.footer-img{
+    object-fit: cover;
+    height: 40px;
+}
