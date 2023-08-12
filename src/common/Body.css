@@ -1,6 +1,8 @@
 .section-heading{
     justify-content: center;
     padding-bottom: 30px;
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 24px;
 }
 
 
@@ -11,11 +13,32 @@
     padding: 25px;
 }
 
-.section-recent-content{
+.section-content-heading{
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.section-recent{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
+}
+
+.section-recent > li{
+    text-align: left;
+    max-width: 400px;
+}
+
+
+.section-text{
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 16px;
+}
+
+.section-recent-content > li{
+    text-align: start;
 }
 
 .section-recent-content > li{
@@ -47,7 +70,7 @@
     display: flex;
     align-items: flex-start;
     text-align: right;
-    padding-bottom: 45px;
+    padding-bottom: 45pxв;
 }
 
 li:nth-child(odd) .trending-description {
